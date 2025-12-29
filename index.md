@@ -1,25 +1,23 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
-hero:
-  name: "My Blog"
-  text: "Front-end Learning Notes"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+# 🎉 你好，欢迎来到我的博客
+
+前端学习中 | 记录成长 | 分享踩坑
+
+---
+
+## 🚀 博客内容
+- 前端基础（HTML / CSS / JavaScript）
+
+---
+
+## 📚 从这里开始
+- 👉 [前端学习总览](/guide/frontend)
+- 👉 [HTML 基础](/guide/html-basics)
+
+---
+
+## 🔗 关于我
+- GitHub：https://github.com/XIAYUE326474
