@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
-export default {
+export default defineConfig({
   base: '/my-blog/',
   title: '我的前端博客',
   description: '前端学习记录',
@@ -11,14 +10,17 @@ export default {
       { text: '首页', link: '/' },
       { text: '前端学习', link: '/guide/frontend' }
     ],
-    sidebar: [
-      {
-        text: '前端学习',
-        items: [
-          { text: '学习总览', link: '/guide/frontend' },
-          { text: 'HTML', link: '/guide/html-basics' },
-        ]
-      }
-    ]
+
+    sidebar: {
+      '/guide/': [
+        {
+          text: '前端学习',
+          items: [
+            { text: '学习总览', link: '/guide/frontend' },
+            { text: 'HTML 基础', link: '/guide/html-basics' }
+          ]
+        }
+      ]
+    }
   }
-}
+})
