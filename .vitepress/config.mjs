@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default {
+  base: '/my-blog/',
   title: '我的前端博客',
   description: '前端学习记录',
 
